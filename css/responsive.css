@@ -1,0 +1,393 @@
+/*============================= Responsive For Extra Small Devices ============================================================*/ 
+
+@media (min-width:0px) and (max-width:575px){
+
+    /*============== Banner Section Responsive =================================*/
+
+    /*========== Navbar ==========*/
+
+    #Banner .navbar{
+        padding: 30px 0px 0px 0px;
+    }
+        
+    /*========== Hero Area =======*/
+
+    #Banner .hero-area h1{
+        font-size: 2em;
+    }
+
+    #Banner .hero-area p{
+        padding: 0px 0px 0px 0px;
+    }
+
+    #Banner .hero-area .btn.btn-second{
+        margin-top: 20px;
+    }
+    
+    /*============== Service Section Responsive =================================*/
+
+    #Service .service-text p{
+        padding: 0px 0px 0px 0px;
+    }
+
+    /*============== Business-Plan Section Responsive ===========================*/
+
+    #Business-plan .text-box{
+        margin: 20px 0px 0px 0px;
+    }
+
+    #Business-plan .text-box h2{
+        text-align: center;
+    }
+    
+    #Business-plan .text-box p{
+        text-align: center;
+    }
+
+    #Business-plan .text-box .btn{
+        margin:30px 0px 0px 40px;
+    }
+
+    #Business-plan .img-box img{
+        width: 100%;
+    }
+    #Business-plan .image-box-1{
+        margin: 50px 0px 0px 0px;
+    }
+    #Business-plan .image-box-2{
+        margin: 20px 0px 0px 0px;
+    }
+
+    /*============== Carousel Section Responsive ==============================*/
+
+    #Carousel .nav .nav-item .nav-link{
+        font-size: 1em;
+        color: #000000;
+    }
+
+    /*============== Trust Section Responsive =================================*/
+
+    #Trust .text-box h3{
+        text-align: center;
+    }
+
+    #Trust .text-box p{
+        padding: 0;
+        text-align: center;
+    }
+
+    #Trust .text-box .btn{
+        margin: 0px 0px 0px 50px;
+    }
+
+    #Trust .img-box{
+        margin: 30px 0px 0px 0px;
+    }
+
+    
+    /*============== Client Section Responsive =================================*/
+
+    #Client .img-box-1{
+        margin: 0px 0px 0px 27px;
+    }
+
+    #Client .img-box-2{
+        margin: 60px 0px 0px 30px;
+    }
+
+    #Client .img-box-3{
+        margin: 60px 0px 0px 60px;
+    }
+
+    #Client .img-box-4{
+        margin: 60px 0px 0px 30px;
+    }
+
+    #Client .text-box{
+        text-align: center;
+        margin: 60px 0px 0px 0px;
+    }
+
+        
+    /*============== Design Section Responsive =================================*/
+
+    #Design .text-box{
+        padding:0px 0px 0px 0px;
+        margin:0px 0px 30px 0px;
+    }
+
+    #Design .img-box{
+        margin: 40px 0px 0px 0px;
+    }
+            
+    /*============== Contact Section Responsive =================================*/
+
+    #Contact .text-box{
+        text-align:center;
+        margin:0px 0px 0px 10px;
+    }
+
+    #Contact .text-box h2{
+        font-size: 1.7em;
+    }
+
+    #Contact .form-box{
+        margin: 50px 0px 0px 0px;
+    }
+
+    
+    /*============== Footer Section Responsive =================================*/
+
+    #Footer .text-box img{
+        margin: 0px 0px 50px 80px;
+    }
+
+    #Footer .text-box h5{
+        text-align: center;
+    }
+    
+    #Footer .text-box p{
+        margin-bottom: 0;
+    }
+
+    #Footer .text-box .paragraph-1{
+        text-align: center;
+    }
+    #Footer .text-box .paragraph-2{
+        text-align: center;
+        margin: 20px 0px 0px 0px;
+    }
+
+    #Footer .text-box .icon-box .nav{
+        margin: 0px 0px 30px 0px;
+    }
+
+    #Footer .search-box h5{
+        text-align: center;
+    }
+
+    #Footer .search-box .input-group{
+        padding-left: 0px;
+    }
+    #Footer .search-box p{
+        text-align: center;
+    }
+
+}
+
+
+
+
+
+
+/*============================= Responsive For Small Devices ==================================================================*/ 
+
+@media (min-width:576px) and (max-width:767px){
+
+    /*============== Banner Section Responsive =================================*/
+
+    /*========== Navbar ==========*/
+
+    #Banner .navbar{
+        padding: 25px 0px 0px 0px;
+    }
+
+    #Banner .navbar .navbar-brand img{
+        height: 38px;
+        width: auto;
+    }
+    
+    /*========== Hero Area =======*/
+
+    #Banner .hero-area{
+        margin: 100px 0px 100px 0px;
+    }
+
+    #Banner .hero-area h1{
+        text-align: unset;
+        margin: 0px 0px 35px 0px;
+        font-size: 2.3em;
+    }
+
+    #Banner .hero-area p{
+        margin: 0px 0px 50px 0px;
+        padding: 0px 75px 0px 75px;
+    }
+
+    /*============== Busines-Plan Section Responsive ===========================*/
+
+    #Business-plan .text-box{
+        margin: 20px 0px 0px 0px;
+    }
+
+    #Business-plan .text-box .btn{
+        margin:30px 0px 50px 0px;
+    }
+
+    /*============== Trust Section Responsive ==================================*/
+
+    #Trust .text-box .btn{
+        margin: 0px 0px 30px 0px;
+    }
+
+    /*============== Client Section Responsive =================================*/
+
+    #Client .text-box{
+        text-align: center;
+        margin: 60px 0px 60px 0px;
+    }
+
+    /*============== Contact Section Responsive ================================*/
+
+    #Contact .text-box{
+        margin:0px 0px 0px 0px;
+    }
+
+    #Contact .form-box{
+        margin: 55px 0px 0px 0px;
+    }
+
+    #Contact .form-box .btn{
+        margin-top: 30px;
+    }
+
+    /*============== Footer Section Responsive =================================*/
+
+    #Footer .text-box h5{
+        margin:0px 0px 20px 0px;
+        float: right;
+    }
+    
+    #Footer .text-box p{
+        margin-bottom: 0;
+        float: right;
+    }
+
+    #Footer .text-box .paragraph-1{
+        margin: -40px 0px 0px 0px;
+    }
+    #Footer .text-box .paragraph-2{
+        margin: -10px 0px 0px 0px;
+    }
+
+    #Footer .text-box .icon-box .nav{
+        margin: 0px 0px 30px 0px;
+    }
+
+    #Footer .search-box h5{
+        text-align: center;
+    }
+
+    #Footer .search-box .input-group{
+        padding-left: 0px;
+    }
+    #Footer .search-box p{
+        text-align: center;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+/*============================= Responsive For Medium Devices =================================================================*/ 
+
+
+@media (min-width:768px) and (max-width:991px){
+
+    /*============== Banner Section Responsive =================================*/
+
+    /*========== Navbar ==========*/
+
+    #Banner .navbar{
+        padding: 25px 0px 0px 0px;
+    }
+
+    #Banner .navbar .navbar-brand img{
+        height: 38px;
+        width: auto;
+    }
+
+    /*========== Hero Area =======*/
+
+    #Banner .hero-area h1{
+        margin:0px 0px 30px 0px;
+        font-size:2.8em;
+    }
+
+    /*============== Busines-Plan Section Responsive ===========================*/
+
+    #Business-plan .text-box .btn{
+        margin:30px 0px 50px 0px;
+    }
+
+    /*============== Trust Section Responsive ==================================*/
+
+    #Trust .text-box .btn{
+        margin: 0px 0px 30px 0px;
+    }
+
+    /*============== Client Section Responsive =================================*/
+
+    #Client .img-box-1{
+        margin: 0px 0px 0px 140px;
+    }
+
+    #Client .img-box-2{
+        margin: -30px 0px 0px 75px;
+    }
+
+    #Client .img-box-3{
+        margin: 80px 0px 50px 180px;
+    }
+
+    #Client .img-box-4{
+        margin: 90px 0px 0px 80px;
+    }
+
+    #Client .text-box{
+        text-align: center;
+        margin: 20px 0px 60px 0px;
+    }
+    
+    /*============== Contact Section Responsive ================================*/
+
+    #Contact .text-box{
+        margin:0px 30px 0px 0px;
+    }
+
+    #Contact .form-box{
+        margin: 13px 0px 0px 0px;
+    }
+
+
+}
+
+
+
+
+
+
+
+/*============================= Responsive For Large Devices ==================================================================*/ 
+
+@media (min-width:992px) and (max-width:1199px){
+
+}
+
+
+
+
+
+
+
+/*============================= Responsive For Extra Large Devices ============================================================*/ 
+
+@media (min-width:1200px){
+
+}

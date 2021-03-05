@@ -1,0 +1,632 @@
+/*========================= Global CSS =========================================*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+/*====================== Banner Section CSS =========================================================*/
+
+#Banner{
+    background: url(../images/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/*============== Banner Navbar ============================*/
+
+#Banner .navbar-nav{}
+#Banner .navbar .navbar-brand img{}
+
+#Banner .navbar-nav .nav-item{   
+    padding: 8px 12px;
+    position: relative;
+    margin: 0px 3px 0px 3px;
+}
+
+#Banner .navbar-nav .nav-item .nav-link{
+    color: #fff;
+    font-size: 1em;
+}
+
+#Banner .navbar-nav .nav-item .nav-link::after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #fb414e;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    transition: 0.3s all;
+}
+
+#Banner .navbar-nav .nav-item.active .nav-link::after{
+    width: 100%;
+}
+
+#Banner .navbar-nav .nav-item:hover .nav-link::after{
+    width: 100%;
+}
+
+/*================ Banner Hero Area ========================*/
+
+#Banner .hero-area{
+    text-align: center;
+    color: #fff;
+    margin: 134px 0px 134px 0px;
+}
+
+#Banner .hero-area h1{
+    margin:0px 0px 30px 0px;
+    font-size: 3.2em;
+}
+
+#Banner .hero-area p{
+    font-size: 1em;
+    line-height: 1.7;
+    margin:0px 0px 40px 0px;
+    padding: 0px 90px 0px 90px;
+}
+
+#Banner .hero-area .btn{
+    color: #fff;
+    border: 1px solid #ef2756;
+    border-radius: 0px;
+    padding: 8px 0px 8px 0px;
+    margin: 0 10px 0px 10px;
+    width: 220px;
+}
+
+#Banner .hero-area .btn.btn-cta{
+    background: #ef2756;
+}
+
+#Banner .hero-area .btn.btn-second{
+    transition: 0.4s linear;
+}
+
+#Banner .hero-area .btn:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+#Banner .hero-area .btn.btn-second:hover{
+    background: #ef2756;
+}
+
+
+/*================================== Service Section CSS =====================================================*/
+
+#service{}
+
+#Service .card-deck{}
+
+#Service .card-deck .card{
+    background: #202b30;
+    color: #fff;
+    border-radius: 0;
+    margin: -65px 0px 100px 0px;
+    transition: 0.4s all;
+}
+
+#Service .card-deck .card .card-body{
+    padding: 40px;
+}
+
+#Service .card-deck .card .card-body img{
+    margin:0px 0px 24px 0px;
+}
+
+#Service .card-deck .card .card-body h5{
+    margin:0px 0px 20px 0px;
+}
+
+#Service .card-deck .card .card-body .white-line{
+    height: 2px;
+    background: #fff;
+    width: 20%;
+    margin:0px 0px 20px 0px;
+}
+
+#Service .card-deck .card .card-body p{
+    line-height: 1.7;
+    font-size: 1em;
+}
+
+#Service .card-deck .card:hover{
+    background-color: #fb414e;
+    cursor: pointer;
+}
+
+
+#Service .service-text{
+    text-align: center;
+    margin:0px 0px 100px 0px;
+}
+
+#Service .service-text h5{
+    color: #fb414e;
+}
+
+#Service .service-text span{
+    color: #fb414e;
+}
+
+#Service .service-text h2{
+    margin:0px 0px 30px 0px;
+}
+
+#Service .service-text p{
+    font-size: 1em;
+    line-height: 1.7;
+    padding: 0px 90px 0px 90px;
+    margin-bottom: 0px;
+    color: #838383;
+}
+
+#Service .service-icon{
+    text-align: center;
+}
+
+#Service .service-icon .icon-box{
+    margin:0px 0px 30px 0px;
+}
+
+#Service .service-icon .icon-box img{
+    margin:0px 0px 16px 0px;
+}
+
+#Service .service-icon .icon-box h4{
+    margin:0px 0px 26px 0px;
+    color: #1f1f1f;
+}
+
+#Service .service-icon .icon-box p{
+    font-size: 1em;
+    line-height: 1.7;
+    color: #838383;
+    margin-bottom: 0px;
+}
+
+
+/*==================================== Business-Plan Section CSS ==========================================================*/
+
+#Business-plan{
+    margin: 70px 0px 0px 0px;
+    background: #202b30;
+    padding: 70px 0px 70px 0px;
+    color: #fff;
+}
+
+#Business-plan .text-box{
+    margin: 20px 80px 0px 0px;
+}
+
+#Business-plan .text-box h2{
+    font-size: 2em;
+    margin:0px 0px 32px 0px;
+}
+
+#Business-plan .text-box p{
+    font-size: 1em;
+    line-height: 1.7;
+}
+
+#Business-plan .text-box .btn{
+    border-radius: 0;
+    padding: 8px 60px 8px 60px;
+    margin:30px 0px 0px 0px;
+}
+
+#Business-plan .text-box .start-now{
+    font-size: 1.1em;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+#Business-plan .img-box{}
+
+#Business-plan .img-box img{}
+
+
+
+/*================================= Quality Section CSS =====================================================================*/
+
+#Quality{
+    background: #eaeaea;
+    padding: 100px 0px 60px 0px;
+}
+
+#Quality .text-box{
+    margin:0px 0px 40px 0px;
+}
+
+#Quality .text-box h5{
+    color: #1f1f1f;
+    font-size: 1.3em;
+    margin:0px 0px 24px 0px;
+}
+
+#Quality .text-box p{
+    font-size: 1em;
+    line-height: 1.7;
+    margin-bottom: 0px;
+    color: #838383;
+}
+
+#Quality .big-text-box{}
+
+#Quality .big-text-box h3{
+    color: #1f1f1f;
+    margin:0px 0px 24px 0px;
+    font-size: 2em;
+}
+
+#Quality .big-text-box p{
+    font-size: 1em;
+    line-height: 1.7;
+    color: #838383;
+    margin-bottom: 0px;
+}
+
+#Quality .big-text-box p.first{
+    font-size: 1em;
+    margin:0px 0px 50px 0px;
+}
+
+
+/*=================================== Carousel Section CSS =================================================================*/
+
+#Carousel{
+    position: static;
+    margin: 100px 0px 95px 0px;
+}
+
+#Carousel .nav{
+    margin:0px 0px 30px 0px;
+}
+
+#Carousel .nav .nav-item{
+    position: relative;
+    margin: 0px 5px 0px 5px;
+}
+
+#Carousel .nav .nav-item .nav-link{
+    font-size: 1.2em;
+    color: #a4a4a4;
+}
+
+#Carousel .nav .nav-item .nav-link:hover{
+    color: #1f1f1f;
+}
+
+#Carousel .nav .nav-item .nav-link:after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    background: #000;
+    left: 0;
+    bottom: 0;
+    width: 0%;
+    transition: 0.4s all;
+}
+
+#Carousel .nav .nav-item:hover .nav-link:after{
+    width: 100%;
+}
+
+#Carousel .gallery{
+    padding: 14px;
+}
+
+#Carousel .gallery .img-box{
+    margin: 5px;
+    overflow: hidden;
+}
+
+#Carousel .gallery .img-box:hover img{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+#Carousel .gallery .img-box img{
+    transition: 0.4s all;
+    width: 100%;
+}
+
+
+/*======================================= Trust Section CSS ===============================================================*/
+
+#Trust{
+    margin:0px 0px 100px 0px;
+}
+#Trust .text-box{}
+
+#Trust .text-box h3{
+    color: #1f1f1f;
+    font-weight: bold;
+    margin:0px 0px 30px 0px;
+    font-size: 1.9em;
+}
+
+#Trust .text-box p{
+    line-height: 1.7;
+    padding:0px 70px 0px 0px;
+    margin:0px 0px 40px 0px;
+    color: #1f1f1f;
+}
+
+#Trust .text-box .btn{}
+
+#Trust .text-box .learn-more{
+    border: 1px solid #1f1f1f;
+    border-radius: 0;
+    padding: 8px 50px 8px 50px;
+}
+
+#Trust .img-box{
+    margin: 15px 0px 0px 0px;
+}
+
+#Trust .img-box img{}
+
+
+/*==================================== Client Section CSS =================================================================*/
+
+#Client{
+    background: #202b30;
+    padding: 100px 0px 20px 0px;
+}
+#Client .img-box{}
+
+#Client .img-box-1{
+    margin: 30px 0px 0px 25px;
+}
+#Client .img-box-3{
+    margin: 80px 0px 0px 25px;
+}
+#Client .img-box-2{
+    margin: 0px 0px 0px 30px;
+}
+#Client .img-box-4{
+    margin: 90px 0px 0px 32px;
+}
+#Client .img-box img{}
+
+#Client .text-box{
+    color: #fff;
+    text-align: right;
+    margin: 20px 100px 100px 15px;
+}
+
+#Client .text-box h3{
+    font-size: 2em;
+    margin:0px 0px 30px 0px;
+}
+
+#Client .text-box p{
+    line-height: 1.7;
+    margin:0px 0px 0px 8px;
+    font-size: 1em;
+}
+
+
+/*==================================== Design Section CSS ===============================================================*/
+
+#Design{
+    padding: 100px 0px 100px 0px;
+    background: url(../images/design-section.png);
+    background-position: center;
+    background-size: cover;
+}
+
+#Design .text-box{
+    padding:0px 100px 0px 0px;
+    margin:0px 0px 30px 0px;
+}
+
+#Design .text-box h3{
+    font-weight: bold;
+    font-size: 2em;
+    margin:0px 0px 30px 0px;
+}
+
+#Design .text-box p{
+    line-height: 1.7;
+    color: #838383;
+    font-size: 1em;
+}
+
+#Design .img-box{}
+
+#Design .img-box img{
+    margin:0px 0px 20px 0px;
+}
+
+#Design .img-box h5{
+    font-size: 1.3em;
+    margin:0px 0px 30px 0px;
+    color: #5e5e5e;
+}
+
+#Design .img-box p{
+    font-size: 1em;
+    color: #838383;
+    margin-bottom: 0;
+}
+
+
+/*==================================== Contact Section CSS ====================================================*/
+
+#Contact{
+    margin: 100px 0px 100px 0px;
+}
+
+#Contact .text-box{
+    text-align: right;
+    margin:0px 40px 0px 0px;
+}
+
+#Contact .text-box h2{
+    font-weight: bold;
+    font-size: 2em;
+    margin:0px 0px 30px 0px;
+}
+
+#Contact .text-box p{
+    font-size: 1em;
+    line-height: 1.7;
+    color: #838383;
+}
+
+#Contact .text-box p.first{}
+
+#Contact .form-box{}
+
+#Contact .form-box .form-row{}
+
+#Contact .form-box .form-group{}
+
+#Contact .form-box .form-group .form-control{
+    font-size: 1em;
+    border-radius: 0;
+    color: #000 !important;
+    border: 1px solid #000;
+}
+
+#Contact .form-box .form-group .form-control:focus{
+    box-shadow: none;
+    outline: 0;
+}
+
+#Contact .form-box .btn{
+    font-size: 1em;
+    background: #fb414e;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 0;
+}
+
+#Contact .form-box .btn .btn-submit{}
+
+#Contact input::placeholder{
+    color: #000 !important;
+}
+
+
+/*================================== Footer Section CSS ===================================================*/
+
+#Footer{
+    padding: 60px 0px 60px 0px;
+    background: #202b30;
+}
+
+#Footer .text-box{}
+
+#Footer .text-box img{
+    margin:0px 0px 50px 0px;
+}
+
+#Footer .text-box h5{
+    font-size: 1.3em;
+    color: #fff;
+    margin:0px 0px 20px 0px;
+}
+
+#Footer .text-box p{
+    color: #fff;
+    font-size: 1em;
+    margin-bottom: 0;
+}
+
+#Footer .text-box .icon-box{
+    margin-top: 50px;
+}
+#Footer .text-box .icon-box .nav{}
+#Footer .text-box .icon-box .nav .nav-item{}
+#Footer .text-box .icon-box .nav .nav-item .nav-link{
+    color: #fff;
+    background: #fb414e;
+    border-radius: 50%;
+    margin:0px 5px 0px 0px;
+}
+
+#Footer .menu-box{}
+
+#Footer .menu-box .nav{
+    
+}
+
+#Footer .menu-box .nav .nav-item{
+    padding: 8px 16px 8px 16px;
+}
+
+#Footer .menu-box .nav .nav-item:last-child{
+    padding-right: 0 !important;
+}
+
+#Footer .menu-box .nav .nav-item .nav-link{
+    font-size: 1em;
+    color:#fff;
+    padding:0;
+    transition: 0.4s all;
+}
+
+#Footer .menu-box .nav .nav-item .nav-link.first{
+    border-bottom: 2px solid #ef2756;
+}
+
+#Footer .menu-box .nav .nav-item .nav-link:hover{
+    border-bottom: 2px solid #ef2756;
+}
+
+#Footer .search-box{}
+
+#Footer .search-box h5{
+    font-size: 1.3em;
+    color: #fff;
+    text-align: right;
+    margin:40px 0px 20px 0px;
+}
+
+#Footer .search-box .input-group{
+    padding-left: 30px;
+}
+
+#Footer .search-box .input-group .form-control{
+    border-radius: 0;
+}
+
+#Footer .search-box .input-group .form-control:focus{
+    box-shadow: none;
+    outline: 0;
+    border: none;
+}
+
+#Footer input::placeholder{
+    color: #848484 !important;
+}
+
+.footer .search-box .input-group .input-group-append{}
+
+#Footer .search-box .input-group .input-group-append .btn{
+    border-radius: 0;
+    background: #fb414e;
+    color: #fff;
+    border: 1px solid #fb414e;
+    padding: 6px 50px 6px 50px;
+}
+
+#Footer .search-box p{
+    color: #586165;
+    text-align: right;
+    margin: 56px 0px 0px 0px;
+}
